@@ -36,14 +36,14 @@
 		B3041B621767B127005DFDFA /* structurally_valid.cc in Sources */ = {isa = PBXBuildFile; fileRef = B3041B321767B127005DFDFA /* structurally_valid.cc */; };
 		B3041B631767B127005DFDFA /* strutil.cc in Sources */ = {isa = PBXBuildFile; fileRef = B3041B331767B127005DFDFA /* strutil.cc */; };
 		B3041B641767B127005DFDFA /* substitute.cc in Sources */ = {isa = PBXBuildFile; fileRef = B3041B351767B127005DFDFA /* substitute.cc */; };
-		B3041B651767B127005DFDFA /* file.cc in Sources */ = {isa = PBXBuildFile; fileRef = B3041B3A1767B127005DFDFA /* file.cc */; };
-		B3041B661767B127005DFDFA /* googletest.cc in Sources */ = {isa = PBXBuildFile; fileRef = B3041B3C1767B127005DFDFA /* googletest.cc */; };
-		B3041B671767B127005DFDFA /* zcgunzip.cc in Sources */ = {isa = PBXBuildFile; fileRef = B3041B3E1767B127005DFDFA /* zcgunzip.cc */; };
-		B3041B681767B127005DFDFA /* zcgzip.cc in Sources */ = {isa = PBXBuildFile; fileRef = B3041B3F1767B127005DFDFA /* zcgzip.cc */; };
 		B3041B691767B127005DFDFA /* text_format.cc in Sources */ = {isa = PBXBuildFile; fileRef = B3041B401767B127005DFDFA /* text_format.cc */; };
 		B3041B6A1767B127005DFDFA /* unknown_field_set.cc in Sources */ = {isa = PBXBuildFile; fileRef = B3041B421767B127005DFDFA /* unknown_field_set.cc */; };
 		B3041B6B1767B127005DFDFA /* wire_format.cc in Sources */ = {isa = PBXBuildFile; fileRef = B3041B441767B127005DFDFA /* wire_format.cc */; };
 		B3041B6C1767B127005DFDFA /* wire_format_lite.cc in Sources */ = {isa = PBXBuildFile; fileRef = B3041B461767B127005DFDFA /* wire_format_lite.cc */; };
+		B3041B751767B722005DFDFA /* file.cc in Sources */ = {isa = PBXBuildFile; fileRef = B3041B6F1767B722005DFDFA /* file.cc */; };
+		B3041B761767B722005DFDFA /* googletest.cc in Sources */ = {isa = PBXBuildFile; fileRef = B3041B711767B722005DFDFA /* googletest.cc */; };
+		B3041B771767B722005DFDFA /* zcgunzip.cc in Sources */ = {isa = PBXBuildFile; fileRef = B3041B731767B722005DFDFA /* zcgunzip.cc */; };
+		B3041B781767B722005DFDFA /* zcgzip.cc in Sources */ = {isa = PBXBuildFile; fileRef = B3041B741767B722005DFDFA /* zcgzip.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -135,12 +135,6 @@
 		B3041B361767B127005DFDFA /* substitute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = substitute.h; sourceTree = "<group>"; };
 		B3041B371767B127005DFDFA /* template_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = template_util.h; sourceTree = "<group>"; };
 		B3041B381767B127005DFDFA /* type_traits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = type_traits.h; sourceTree = "<group>"; };
-		B3041B3A1767B127005DFDFA /* file.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = file.cc; sourceTree = "<group>"; };
-		B3041B3B1767B127005DFDFA /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = "<group>"; };
-		B3041B3C1767B127005DFDFA /* googletest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = googletest.cc; sourceTree = "<group>"; };
-		B3041B3D1767B127005DFDFA /* googletest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = googletest.h; sourceTree = "<group>"; };
-		B3041B3E1767B127005DFDFA /* zcgunzip.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zcgunzip.cc; sourceTree = "<group>"; };
-		B3041B3F1767B127005DFDFA /* zcgzip.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zcgzip.cc; sourceTree = "<group>"; };
 		B3041B401767B127005DFDFA /* text_format.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = text_format.cc; sourceTree = "<group>"; };
 		B3041B411767B127005DFDFA /* text_format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text_format.h; sourceTree = "<group>"; };
 		B3041B421767B127005DFDFA /* unknown_field_set.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unknown_field_set.cc; sourceTree = "<group>"; };
@@ -150,6 +144,12 @@
 		B3041B461767B127005DFDFA /* wire_format_lite.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wire_format_lite.cc; sourceTree = "<group>"; };
 		B3041B471767B127005DFDFA /* wire_format_lite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wire_format_lite.h; sourceTree = "<group>"; };
 		B3041B481767B127005DFDFA /* wire_format_lite_inl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wire_format_lite_inl.h; sourceTree = "<group>"; };
+		B3041B6F1767B722005DFDFA /* file.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = file.cc; sourceTree = "<group>"; };
+		B3041B701767B722005DFDFA /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = "<group>"; };
+		B3041B711767B722005DFDFA /* googletest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = googletest.cc; sourceTree = "<group>"; };
+		B3041B721767B722005DFDFA /* googletest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = googletest.h; sourceTree = "<group>"; };
+		B3041B731767B722005DFDFA /* zcgunzip.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zcgunzip.cc; sourceTree = "<group>"; };
+		B3041B741767B722005DFDFA /* zcgzip.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zcgzip.cc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,7 +248,7 @@
 				B3041B1A1767B127005DFDFA /* service.cc */,
 				B3041B1B1767B127005DFDFA /* service.h */,
 				B3041B1C1767B127005DFDFA /* stubs */,
-				B3041B391767B127005DFDFA /* testing */,
+				B3041B6E1767B722005DFDFA /* testing */,
 				B3041B401767B127005DFDFA /* text_format.cc */,
 				B3041B411767B127005DFDFA /* text_format.h */,
 				B3041B421767B127005DFDFA /* unknown_field_set.cc */,
@@ -320,15 +320,15 @@
 			path = stubs;
 			sourceTree = "<group>";
 		};
-		B3041B391767B127005DFDFA /* testing */ = {
+		B3041B6E1767B722005DFDFA /* testing */ = {
 			isa = PBXGroup;
 			children = (
-				B3041B3A1767B127005DFDFA /* file.cc */,
-				B3041B3B1767B127005DFDFA /* file.h */,
-				B3041B3C1767B127005DFDFA /* googletest.cc */,
-				B3041B3D1767B127005DFDFA /* googletest.h */,
-				B3041B3E1767B127005DFDFA /* zcgunzip.cc */,
-				B3041B3F1767B127005DFDFA /* zcgzip.cc */,
+				B3041B6F1767B722005DFDFA /* file.cc */,
+				B3041B701767B722005DFDFA /* file.h */,
+				B3041B711767B722005DFDFA /* googletest.cc */,
+				B3041B721767B722005DFDFA /* googletest.h */,
+				B3041B731767B722005DFDFA /* zcgunzip.cc */,
+				B3041B741767B722005DFDFA /* zcgzip.cc */,
 			);
 			path = testing;
 			sourceTree = "<group>";
@@ -343,6 +343,7 @@
 				B3041A561767AF17005DFDFA /* Sources */,
 				B3041A571767AF17005DFDFA /* Frameworks */,
 				B3041A581767AF17005DFDFA /* CopyFiles */,
+				B3041B6D1767B503005DFDFA /* build universal lib */,
 			);
 			buildRules = (
 			);
@@ -379,6 +380,24 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B3041B6D1767B503005DFDFA /* build universal lib */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "build universal lib";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ./build_universal_lib.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B3041A561767AF17005DFDFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -412,14 +431,14 @@
 				B3041B621767B127005DFDFA /* structurally_valid.cc in Sources */,
 				B3041B631767B127005DFDFA /* strutil.cc in Sources */,
 				B3041B641767B127005DFDFA /* substitute.cc in Sources */,
-				B3041B651767B127005DFDFA /* file.cc in Sources */,
-				B3041B661767B127005DFDFA /* googletest.cc in Sources */,
-				B3041B671767B127005DFDFA /* zcgunzip.cc in Sources */,
-				B3041B681767B127005DFDFA /* zcgzip.cc in Sources */,
 				B3041B691767B127005DFDFA /* text_format.cc in Sources */,
 				B3041B6A1767B127005DFDFA /* unknown_field_set.cc in Sources */,
 				B3041B6B1767B127005DFDFA /* wire_format.cc in Sources */,
 				B3041B6C1767B127005DFDFA /* wire_format_lite.cc in Sources */,
+				B3041B751767B722005DFDFA /* file.cc in Sources */,
+				B3041B761767B722005DFDFA /* googletest.cc in Sources */,
+				B3041B771767B722005DFDFA /* zcgunzip.cc in Sources */,
+				B3041B781767B722005DFDFA /* zcgzip.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +505,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "protobuf/protobuf-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/protobuf";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -499,6 +519,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "protobuf/protobuf-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/protobuf";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
