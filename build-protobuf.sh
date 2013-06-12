@@ -41,20 +41,22 @@ configure_for_platform() {
         ../configure --host=${ARCH} --with-protoc=protoc --enable-static --disable-shared --prefix=/tmp/protobuf/arm
 }
 
-mkdir ios-build
+
+mkdir ios-build-i386
+mkdir ios-build-armv7
 
 # build for simulator
 configure_for_platform iPhoneSimulator
 make clean
 make
-cp src/.libs/libprotobuf.a ios-build/libprotobuf-i386.a
+cp src/.libs/* ios-build-i386/
 
 # build for arm
 configure_for_platform iPhoneOS armv7
 make clean
 make
-cp src/.libs/libprotobuf.a ios-build/libprotobuf-armv7.a
+cp src/.libs/* ios-build-armv7/
 
 # make a fat library
 echo "creating fat library"
-xcrun -sdk iphoneos lipo -arch armv7 ios-build/libprotobuf-armv7.a -arch i386 ios-build/libprotobuf-i386.a -create -output ios-build/libprotobuf.a
+xcrun -sdk iphoneos lipo -arch armv7 ios-build-armv7/libprotobuf-lite.a -arch i386 ios-build-i386/libprotobuf-lite.a -create -output libprotobuf-lite.a
